@@ -10,6 +10,8 @@
 
 4. O modelo foi implementado em formato matricial e salvo como um arquivo csv, em que as colunas são as palavras e as linhas (índices) são os documentos.
 
+5. O Código foi deselvolvido em cima de um ambiente virtual python, as bibliotecas utilizadas podem ser encontradas no arquivo "../requirements.txt"
+
 ### Implementações
 
 - Processador de Consultas: "src/processador.ipynb"
