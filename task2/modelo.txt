@@ -1,0 +1,1 @@
+O modelo foi implementado em formato matricial e salvo como um arquivo csv, em que as colunas são as palavras e as linhas (índices) são os documentos.
