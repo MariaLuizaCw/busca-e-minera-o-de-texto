@@ -12,6 +12,7 @@ class processador():
         self.config_dict = {}
         read_config_file(self.inputs_path + 'PC.CFG', self.config_dict)
         print('Read Config File')
+        print(self.config_dict)
     def _parse_xml(self):
         print('Parsed XML')
         xml_file = self.inputs_path + self.config_dict['LEIA'][0]

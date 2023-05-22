@@ -15,6 +15,7 @@ class gerador():
         self.config_dict = {}
         read_config_file(self.inputs_path + 'GLI.CFG', self.config_dict)
         print('Read Config File')
+        print(self.config_dict)
         
     def _parse_xml(self):
         records_data = []
@@ -39,14 +40,14 @@ class gerador():
         return records_df
     def genereate_list(self):
         gli_dict = {}
+        stemmer = PorterStemmer()
         records_df = self._parse_xml()
         for _, row in records_df.iterrows():
             text = row['TEXT']
             recordnum = row['RECORDNUM']
-            tokenizer = RegexpTokenizer(r'\w{3,}')
+            tokenizer = RegexpTokenizer(r'[a-zA-Z]{3,}')
             words = tokenizer.tokenize(text)   
             if self.config_dict['USE'][0] == 'STEMMER':
-                stemmer = PorterStemmer()
                 words = [stemmer.stem(w) for w in words]
             for w in words:
                 if w in gli_dict:
