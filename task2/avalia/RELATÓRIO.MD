@@ -26,24 +26,29 @@ Na maioria das métricas avaliadas, o stemmer se mostrou mais eficiente para a t
 
 ## R-Precision
 <hr/>
+
 - Comparativo (Com stemmer vs Sem stemmer): r-precision-comparative-1.csv e r-precision-comparative-2.pdf.
 
 ## Mean Average Precision (MAP)
 <hr/>
+
 - Com stemmer: 11.59% 
 - Sem stemmer: 10.90%
 
 ## Mean Reciprocal Rank (MRR)
 <hr/>
+
 - Com stemmer: 46.72%
 - Sem stemmer: 47.77%
 
 ## Mean Discounted Cumulative Gain (DCG)
 <hr/>
+
 - Com stemmer: 5.36
 - Sem stemmer: 5.16
 
 ## Mean Normalized Discounted Cumulative Gain (NDCG)
 <hr/>
+
 - Com stemmer: 47.32%
 - Sem stemmer: 50.37%
