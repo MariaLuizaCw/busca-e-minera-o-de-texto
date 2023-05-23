@@ -3,6 +3,7 @@ Na maioria das métricas avaliadas, o stemmer se mostrou mais eficiente para a t
 
 ## Precision x Recall
 <hr/>
+
 - Com stemmer: 11pontos-stemmer-1.csv e 11pontos-stemmer-2.pdf.
 - Sem stemmer: 11pontos-nostemmer-1.csv e 11pontos-nostemmer-2.pdf.
 
@@ -14,6 +15,7 @@ Na maioria das métricas avaliadas, o stemmer se mostrou mais eficiente para a t
 
 ## Precision@5
 <hr/>
+
 - Com stemmer: 26.67%
 - Sem stemmer: 26.46%
 
